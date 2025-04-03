@@ -1,0 +1,21 @@
+Apr 03 17:06:59.453 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 03 17:06:59.453 HYPERVISOR: Started on IP = localhost, TCP port = 52549.
+Apr 03 17:06:59.955 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 03 17:06:59.955 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Fabio\ADA_Project\project-files\dynamips 
+Apr 03 17:06:59.955 GENERAL: working_dir=D:\Fabio\ADA_Project\project-files\dynamips
+Apr 03 17:06:59.955 HYPERVISOR: exec_cmd: ethsw create RH 
+Apr 03 17:07:03.613 HYPERVISOR: exec_cmd: nio create_udp udp-6316bb14-6dc9-4889-a864-571e8a6aa076 10015 127.0.0.1 10014 
+Apr 03 17:07:03.613 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-6316bb14-6dc9-4889-a864-571e8a6aa076 
+Apr 03 17:07:03.643 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-6316bb14-6dc9-4889-a864-571e8a6aa076 1 
+Apr 03 17:07:03.683 HYPERVISOR: exec_cmd: nio create_udp udp-6283e0c6-a42a-41f5-8f69-e9774bada4f5 10017 127.0.0.1 10016 
+Apr 03 17:07:03.683 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-6283e0c6-a42a-41f5-8f69-e9774bada4f5 
+Apr 03 17:07:03.707 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-6283e0c6-a42a-41f5-8f69-e9774bada4f5 1 
+Apr 03 17:07:03.743 HYPERVISOR: exec_cmd: nio create_udp udp-99cd5c0a-803e-41d7-91d1-a9b2962c216d 10019 127.0.0.1 10018 
+Apr 03 17:07:03.743 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-99cd5c0a-803e-41d7-91d1-a9b2962c216d 
+Apr 03 17:07:03.771 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-99cd5c0a-803e-41d7-91d1-a9b2962c216d 1 
+Apr 03 17:07:04.518 HYPERVISOR: exec_cmd: nio create_udp udp-f128967b-a918-4959-9b02-a863f240a854 10043 127.0.0.1 10042 
+Apr 03 17:07:04.518 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-f128967b-a918-4959-9b02-a863f240a854 
+Apr 03 17:07:04.534 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-f128967b-a918-4959-9b02-a863f240a854 1 
+Apr 03 17:07:05.111 HYPERVISOR: exec_cmd: nio create_udp udp-a4a32221-3552-461e-b843-1a24690f1c5a 10056 127.0.0.1 10057 
+Apr 03 17:07:05.111 HYPERVISOR: exec_cmd: ethsw add_nio RH udp-a4a32221-3552-461e-b843-1a24690f1c5a 
+Apr 03 17:07:05.127 HYPERVISOR: exec_cmd: ethsw set_access_port RH udp-a4a32221-3552-461e-b843-1a24690f1c5a 1 

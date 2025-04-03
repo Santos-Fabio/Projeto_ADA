@@ -1,0 +1,25 @@
+Apr 03 11:58:33.681 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 03 11:58:33.682 HYPERVISOR: Started on IP = localhost, TCP port = 58262.
+Apr 03 11:58:33.829 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 03 11:58:33.830 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\c159689\GNS3\projects\ADA_Project_02_04\project-files\dynamips 
+Apr 03 11:58:33.837 GENERAL: working_dir=C:\Users\c159689\GNS3\projects\ADA_Project_02_04\project-files\dynamips
+Apr 03 11:58:33.837 HYPERVISOR: exec_cmd: ethsw create TI 
+Apr 03 11:58:38.428 HYPERVISOR: exec_cmd: nio create_udp udp-beabee7f-841b-4d52-a62f-67504b8c220d 10000 127.0.0.1 10001 
+Apr 03 11:58:38.428 HYPERVISOR: exec_cmd: ethsw add_nio TI udp-beabee7f-841b-4d52-a62f-67504b8c220d 
+Apr 03 11:58:38.453 HYPERVISOR: exec_cmd: ethsw set_access_port TI udp-beabee7f-841b-4d52-a62f-67504b8c220d 1 
+Apr 03 11:58:38.512 HYPERVISOR: exec_cmd: nio create_udp udp-aa5ab565-a656-47c4-938d-9c6ddcd1bd3d 10002 127.0.0.1 10003 
+Apr 03 11:58:38.512 HYPERVISOR: exec_cmd: ethsw add_nio TI udp-aa5ab565-a656-47c4-938d-9c6ddcd1bd3d 
+Apr 03 11:58:38.514 HYPERVISOR: exec_cmd: ethsw set_access_port TI udp-aa5ab565-a656-47c4-938d-9c6ddcd1bd3d 1 
+Apr 03 11:58:38.575 HYPERVISOR: exec_cmd: nio create_udp udp-5b0911f8-8c15-4ab6-9b94-51dd44390c22 10004 127.0.0.1 10005 
+Apr 03 11:58:38.576 HYPERVISOR: exec_cmd: ethsw add_nio TI udp-5b0911f8-8c15-4ab6-9b94-51dd44390c22 
+Apr 03 11:58:38.608 HYPERVISOR: exec_cmd: ethsw set_access_port TI udp-5b0911f8-8c15-4ab6-9b94-51dd44390c22 1 
+Apr 03 11:58:38.664 HYPERVISOR: exec_cmd: nio create_udp udp-e78a42ba-196b-4920-a362-3d6ffbab47d8 10007 127.0.0.1 10006 
+Apr 03 11:58:38.665 HYPERVISOR: exec_cmd: ethsw add_nio TI udp-e78a42ba-196b-4920-a362-3d6ffbab47d8 
+Apr 03 11:58:38.670 HYPERVISOR: exec_cmd: ethsw set_access_port TI udp-e78a42ba-196b-4920-a362-3d6ffbab47d8 1 
+Apr 03 11:58:40.278 HYPERVISOR: exec_cmd: nio create_udp udp-b6e5e15c-a6e4-4615-a520-b1b1fdc3a546 10048 127.0.0.1 10049 
+Apr 03 11:58:40.279 HYPERVISOR: exec_cmd: ethsw add_nio TI udp-b6e5e15c-a6e4-4615-a520-b1b1fdc3a546 
+Apr 03 11:58:40.305 HYPERVISOR: exec_cmd: ethsw set_access_port TI udp-b6e5e15c-a6e4-4615-a520-b1b1fdc3a546 1 
+Apr 03 11:59:22.809 HYPERVISOR: exec_cmd: ethsw delete TI 
+Apr 03 11:59:22.952 HYPERVISOR: exec_cmd: hypervisor stop 
+Apr 03 11:59:23.136 HYPERVISOR: Stopped.
+Apr 03 11:59:23.136 GENERAL: reset done.

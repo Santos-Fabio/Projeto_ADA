@@ -1,0 +1,21 @@
+Apr 03 17:07:00.043 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 03 17:07:00.043 HYPERVISOR: Started on IP = localhost, TCP port = 52554.
+Apr 03 17:07:00.528 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 03 17:07:00.528 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Fabio\ADA_Project\project-files\dynamips 
+Apr 03 17:07:00.528 GENERAL: working_dir=D:\Fabio\ADA_Project\project-files\dynamips
+Apr 03 17:07:00.528 HYPERVISOR: exec_cmd: ethsw create Inovacao 
+Apr 03 17:07:03.810 HYPERVISOR: exec_cmd: nio create_udp udp-101c3dad-679d-4b84-b5bd-658947d81956 10020 127.0.0.1 10021 
+Apr 03 17:07:03.811 HYPERVISOR: exec_cmd: ethsw add_nio Inovacao udp-101c3dad-679d-4b84-b5bd-658947d81956 
+Apr 03 17:07:03.839 HYPERVISOR: exec_cmd: ethsw set_access_port Inovacao udp-101c3dad-679d-4b84-b5bd-658947d81956 1 
+Apr 03 17:07:03.878 HYPERVISOR: exec_cmd: nio create_udp udp-74c3211d-212c-4bc9-98c7-d6807b0bfc5c 10022 127.0.0.1 10023 
+Apr 03 17:07:03.878 HYPERVISOR: exec_cmd: ethsw add_nio Inovacao udp-74c3211d-212c-4bc9-98c7-d6807b0bfc5c 
+Apr 03 17:07:03.898 HYPERVISOR: exec_cmd: ethsw set_access_port Inovacao udp-74c3211d-212c-4bc9-98c7-d6807b0bfc5c 1 
+Apr 03 17:07:03.943 HYPERVISOR: exec_cmd: nio create_udp udp-64c28f8e-b952-465a-b78b-921cc9a7df18 10024 127.0.0.1 10025 
+Apr 03 17:07:03.946 HYPERVISOR: exec_cmd: ethsw add_nio Inovacao udp-64c28f8e-b952-465a-b78b-921cc9a7df18 
+Apr 03 17:07:03.962 HYPERVISOR: exec_cmd: ethsw set_access_port Inovacao udp-64c28f8e-b952-465a-b78b-921cc9a7df18 1 
+Apr 03 17:07:04.455 HYPERVISOR: exec_cmd: nio create_udp udp-aed72455-db19-435e-9303-87f60b21bf52 10041 127.0.0.1 10040 
+Apr 03 17:07:04.455 HYPERVISOR: exec_cmd: ethsw add_nio Inovacao udp-aed72455-db19-435e-9303-87f60b21bf52 
+Apr 03 17:07:04.471 HYPERVISOR: exec_cmd: ethsw set_access_port Inovacao udp-aed72455-db19-435e-9303-87f60b21bf52 1 
+Apr 03 17:07:05.183 HYPERVISOR: exec_cmd: nio create_udp udp-e1fb2737-2a50-4dd9-bcfc-eafd4acc4c2c 10061 127.0.0.1 10060 
+Apr 03 17:07:05.183 HYPERVISOR: exec_cmd: ethsw add_nio Inovacao udp-e1fb2737-2a50-4dd9-bcfc-eafd4acc4c2c 
+Apr 03 17:07:05.189 HYPERVISOR: exec_cmd: ethsw set_access_port Inovacao udp-e1fb2737-2a50-4dd9-bcfc-eafd4acc4c2c 1 

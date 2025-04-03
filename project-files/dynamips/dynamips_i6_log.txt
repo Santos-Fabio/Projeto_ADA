@@ -1,0 +1,21 @@
+Apr 03 17:07:01.213 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 03 17:07:01.213 HYPERVISOR: Started on IP = localhost, TCP port = 52564.
+Apr 03 17:07:01.703 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 03 17:07:01.703 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Fabio\ADA_Project\project-files\dynamips 
+Apr 03 17:07:01.703 GENERAL: working_dir=D:\Fabio\ADA_Project\project-files\dynamips
+Apr 03 17:07:01.703 HYPERVISOR: exec_cmd: ethsw create Gerencia 
+Apr 03 17:07:04.203 HYPERVISOR: exec_cmd: nio create_udp udp-c89506ae-bdea-4728-b0f6-929e975b1dcf 10033 127.0.0.1 10032 
+Apr 03 17:07:04.203 HYPERVISOR: exec_cmd: ethsw add_nio Gerencia udp-c89506ae-bdea-4728-b0f6-929e975b1dcf 
+Apr 03 17:07:04.217 HYPERVISOR: exec_cmd: ethsw set_access_port Gerencia udp-c89506ae-bdea-4728-b0f6-929e975b1dcf 1 
+Apr 03 17:07:04.263 HYPERVISOR: exec_cmd: nio create_udp udp-800dd4ff-5d02-427f-b904-cf6e9c5e46f1 10035 127.0.0.1 10034 
+Apr 03 17:07:04.264 HYPERVISOR: exec_cmd: ethsw add_nio Gerencia udp-800dd4ff-5d02-427f-b904-cf6e9c5e46f1 
+Apr 03 17:07:04.280 HYPERVISOR: exec_cmd: ethsw set_access_port Gerencia udp-800dd4ff-5d02-427f-b904-cf6e9c5e46f1 1 
+Apr 03 17:07:04.323 HYPERVISOR: exec_cmd: nio create_udp udp-801b6fdb-7da1-4e26-ae4b-3f7c611a0d51 10037 127.0.0.1 10036 
+Apr 03 17:07:04.323 HYPERVISOR: exec_cmd: ethsw add_nio Gerencia udp-801b6fdb-7da1-4e26-ae4b-3f7c611a0d51 
+Apr 03 17:07:04.344 HYPERVISOR: exec_cmd: ethsw set_access_port Gerencia udp-801b6fdb-7da1-4e26-ae4b-3f7c611a0d51 1 
+Apr 03 17:07:04.384 HYPERVISOR: exec_cmd: nio create_udp udp-3529e45c-3081-4bc4-bfd5-bce48855cfb0 10038 127.0.0.1 10039 
+Apr 03 17:07:04.384 HYPERVISOR: exec_cmd: ethsw add_nio Gerencia udp-3529e45c-3081-4bc4-bfd5-bce48855cfb0 
+Apr 03 17:07:04.408 HYPERVISOR: exec_cmd: ethsw set_access_port Gerencia udp-3529e45c-3081-4bc4-bfd5-bce48855cfb0 1 
+Apr 03 17:07:05.298 HYPERVISOR: exec_cmd: nio create_udp udp-12516725-612c-4658-a6bf-b4cd98602793 10068 127.0.0.1 10069 
+Apr 03 17:07:05.298 HYPERVISOR: exec_cmd: ethsw add_nio Gerencia udp-12516725-612c-4658-a6bf-b4cd98602793 
+Apr 03 17:07:05.317 HYPERVISOR: exec_cmd: ethsw set_access_port Gerencia udp-12516725-612c-4658-a6bf-b4cd98602793 1 

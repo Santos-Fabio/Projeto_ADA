@@ -1,0 +1,21 @@
+Apr 03 17:06:58.879 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 03 17:06:58.879 HYPERVISOR: Started on IP = localhost, TCP port = 52544.
+Apr 03 17:06:59.365 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 03 17:06:59.365 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Fabio\ADA_Project\project-files\dynamips 
+Apr 03 17:06:59.365 GENERAL: working_dir=D:\Fabio\ADA_Project\project-files\dynamips
+Apr 03 17:06:59.365 HYPERVISOR: exec_cmd: ethsw create Helpdesk 
+Apr 03 17:07:03.423 HYPERVISOR: exec_cmd: nio create_udp udp-00a128d8-f417-4737-ae64-c02114aa8185 10009 127.0.0.1 10008 
+Apr 03 17:07:03.433 HYPERVISOR: exec_cmd: ethsw add_nio Helpdesk udp-00a128d8-f417-4737-ae64-c02114aa8185 
+Apr 03 17:07:03.453 HYPERVISOR: exec_cmd: ethsw set_access_port Helpdesk udp-00a128d8-f417-4737-ae64-c02114aa8185 1 
+Apr 03 17:07:03.493 HYPERVISOR: exec_cmd: nio create_udp udp-edcfd5e6-654a-4fc7-89a0-2b2fd38a2bb6 10011 127.0.0.1 10010 
+Apr 03 17:07:03.493 HYPERVISOR: exec_cmd: ethsw add_nio Helpdesk udp-edcfd5e6-654a-4fc7-89a0-2b2fd38a2bb6 
+Apr 03 17:07:03.516 HYPERVISOR: exec_cmd: ethsw set_access_port Helpdesk udp-edcfd5e6-654a-4fc7-89a0-2b2fd38a2bb6 1 
+Apr 03 17:07:03.563 HYPERVISOR: exec_cmd: nio create_udp udp-c18cc16b-d3af-4b81-a9cf-36da022f7ea6 10013 127.0.0.1 10012 
+Apr 03 17:07:03.563 HYPERVISOR: exec_cmd: ethsw add_nio Helpdesk udp-c18cc16b-d3af-4b81-a9cf-36da022f7ea6 
+Apr 03 17:07:03.579 HYPERVISOR: exec_cmd: ethsw set_access_port Helpdesk udp-c18cc16b-d3af-4b81-a9cf-36da022f7ea6 1 
+Apr 03 17:07:04.581 HYPERVISOR: exec_cmd: nio create_udp udp-b2da8528-aaca-42d0-88fa-3e5fa9142c37 10045 127.0.0.1 10044 
+Apr 03 17:07:04.581 HYPERVISOR: exec_cmd: ethsw add_nio Helpdesk udp-b2da8528-aaca-42d0-88fa-3e5fa9142c37 
+Apr 03 17:07:04.597 HYPERVISOR: exec_cmd: ethsw set_access_port Helpdesk udp-b2da8528-aaca-42d0-88fa-3e5fa9142c37 1 
+Apr 03 17:07:05.053 HYPERVISOR: exec_cmd: nio create_udp udp-62f976f8-8e13-49c5-849a-6cd5bf27a593 10052 127.0.0.1 10053 
+Apr 03 17:07:05.053 HYPERVISOR: exec_cmd: ethsw add_nio Helpdesk udp-62f976f8-8e13-49c5-849a-6cd5bf27a593 
+Apr 03 17:07:05.063 HYPERVISOR: exec_cmd: ethsw set_access_port Helpdesk udp-62f976f8-8e13-49c5-849a-6cd5bf27a593 1 
