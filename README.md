@@ -33,37 +33,37 @@ n° hosts <= 2^n - 2
 
     $32-7=25$
     
-    Mascára da sub-rede: /25 = 255.255.255.128
+    Máscara da sub-rede: /25 = 255.255.255.128
 - Helpdesk (120 hosts)
-    $100 < 2^7 - 2 (126)$
+    $120 < 2^7 - 2 (126)$
     
     $32-7=25$
     
-    Mascára da sub-rede: /25 = 255.255.255.128
+    Máscara da sub-rede: /25 = 255.255.255.128
 - RH (40 hosts)
-    $100 < 2^6 - 2 (62)$
+    $40 < 2^6 - 2 (62)$
     
     $32-6=26$
     
-    Mascára da sub-rede: /25 = 255.255.255.192
+    Máscara da sub-rede: /26 = 255.255.255.192
 - Inovação (129 hosts)
-    $100 < 2^8 - 2 (254)$
+    $129 < 2^8 - 2 (254)$
     
-    $32-7=25$
+    $32-8=24$
     
-    Mascára da sub-rede: /25 = 255.255.255.0
+    Máscara da sub-rede: /24 = 255.255.255.0
 - Vendas (300 hosts)
-    $100 < 2^9 - 2 (510)$
+    $300 < 2^9 - 2 (510)$
     
     $32-9=23$
     
-    Mascára da sub-rede: /25 = 255.255.254.0
+    Máscara da sub-rede: /23 = 255.255.254.0
 - Gerencia (50 hosts)
-    $100 < 2^6 - 2 (62)$
+    $50 < 2^6 - 2 (62)$
     
     $32-6=26$
     
-    Mascára da sub-rede: /25 = 255.255.255.192
+    Máscara da sub-rede: /26 = 255.255.255.192
 
 Com esses valores pode-se definir o valor para os intervalos:
 - TI:-------10.100.0.0 - 10.100.0.127
@@ -85,7 +85,7 @@ Endereçamento de rede:
 
 
 ### Rodando o projeto
-O projeto já está configurado, após o carregar, deve-se apertar os botões "reload all nodes" e "start/resume all nodes". Caso encontre alguma falha, rode novamente o código de configuração do roteador em seu terminal, espere carregar as configurações e teste novamente. 
+O projeto já está configurado, após o carregar, deve-se apertar os botões "reload all nodes" e "start/resume all nodes". Caso encontre alguma falha, rode novamente o código de configuração do roteador em seu terminal (caso queira zerar as configurações previamente carregadas utilize o comando "write erase" no terminal do roteador) , espere carregar as configurações e teste novamente.
 ### Código de Configuração do roteado
 O roteador utilizado foi criado com a imagem do roteador c3725.
 Foi criado um login e senha para configurar o roteador, assim como deveria ser nas empresas por questão de segurança, no caso educalcional todas as senhas são iguais "ada123".  Usuário: admin
@@ -234,12 +234,6 @@ interface FastEthernet1/6
  no shutdown
  exit
 
-#end
-#write memory
-
-
-#Estava dando problema nas portas, pois não as vinculava, isso resolve
-#configure terminal
 
 #TI VLAN (10)
 interface FastEthernet1/0
@@ -283,23 +277,8 @@ interface FastEthernet1/5
  no shutdown
  exit
 
-#end
-#write memory
 #======================================================================
 #Configuração NAT
-#configure terminal
-
-#interface FastEthernet1/6
-#no switchport
-#ip address 152.132.30.2 255.255.255.148
-# no shutdown
-# exit
-#ip route 0.0.0.0 0.0.0.0 152.132.30.1
-
-#ip access-list standard NAT-ACL
-# permit 10.100.0.0 0.0.15.255
-# exit
-#ip nat inside source list NAT-ACL interface FastEthernet1/6 overload
 
 #limpando configurações existentes
 no ip nat inside source list NAT-ACL interface FastEthernet1/6 overload
@@ -449,21 +428,21 @@ save
 
 ### Topologia
 
-![Topologia da rede](TopologiaRedes.png)
+![Topologia da rede](Figures\TopologiaRedes.png)
 
 ## Testes
 ### Realizando Ping na mesma coordenação
 ### TI2 ping TI1 - Wireshark conexão TI1
-![Ping em computadores na mesma sub-rede](TI2_1_WS1.png)
+![Ping em computadores na mesma sub-rede](Figures\TI2_1_WS1.png)
 
 ### TI2 ping TI100 - Wireshark conexão TI1
 Como podemos ver, o broadcast foi capturado, mas a conexão estabelicida não é com o computador o qual está em análise no wireshark
 
-![Ping em computadores na mesma sub-rede - Wireshark abalisando outro computador na mesma sub-rede](TI2_100_WS1.png)
+![Ping em computadores na mesma sub-rede - Wireshark abalisando outro computador na mesma sub-rede](Figures\TI2_100_WS1.png)
 
 ### RH1 ping Ge3 - Wireshark RH1
-![Ping em computadores em diferentes sub-redes](RH1_Ge3_WSRH1.png)
+![Ping em computadores em diferentes sub-redes](Figures\RH1_Ge3_WSRH1.png)
 
 ### TI2 Servidor Externo (Nuvem) - Wireshark conexões TI1 e Switch TI
-![Ping com o Servidor Externo - Wireshark analisando tráfego da Switch TI (sub-rede do computador realizando o ping)](TI2_SE_WS1_SWTI.png)
+![Ping com o Servidor Externo - Wireshark analisando tráfego da Switch TI (sub-rede do computador realizando o ping)](Figures\TI2_SE_WS1_SWTI.png)
 
