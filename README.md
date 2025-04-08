@@ -428,21 +428,21 @@ save
 
 ### Topologia
 
-![Topologia da rede](Figures\TopologiaRedes.png)
+![Topologia da rede](Figures/TopologiaRedes.png)
 
 ## Testes
 ### Realizando Ping na mesma coordenação
 ### TI2 ping TI1 - Wireshark conexão TI1
-![Ping em computadores na mesma sub-rede](Figures\TI2_1_WS1.png)
+![Ping em computadores na mesma sub-rede](Figures/TI2_1_WS1.png)
 
 ### TI2 ping TI100 - Wireshark conexão TI1
 Como podemos ver, o broadcast foi capturado, mas a conexão estabelicida não é com o computador o qual está em análise no wireshark
 
-![Ping em computadores na mesma sub-rede - Wireshark abalisando outro computador na mesma sub-rede](Figures\TI2_100_WS1.png)
+![Ping em computadores na mesma sub-rede - Wireshark abalisando outro computador na mesma sub-rede](Figures/TI2_100_WS1.png)
 
 ### RH1 ping Ge3 - Wireshark RH1
-![Ping em computadores em diferentes sub-redes](Figures\RH1_Ge3_WSRH1.png)
+![Ping em computadores em diferentes sub-redes](Figures/RH1_Ge3_WSRH1.png)
 
 ### TI2 Servidor Externo (Nuvem) - Wireshark conexões TI1 e Switch TI
-![Ping com o Servidor Externo - Wireshark analisando tráfego da Switch TI (sub-rede do computador realizando o ping)](Figures\TI2_SE_WS1_SWTI.png)
+![Ping com o Servidor Externo - Wireshark analisando tráfego da Switch TI (sub-rede do computador realizando o ping)](Figures/TI2_SE_WS1_SWTI.png)
 
